@@ -109,5 +109,4 @@ This project is set up for continuous deployment. Every push to the `main` branc
 
 Azat Vepakulyyev
 
----
 
