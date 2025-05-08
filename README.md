@@ -29,8 +29,8 @@ This website is automatically deployed from GitHub to Cloudflare Pages.
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-   cd YOUR_REPO_NAME
+   git clone https://github.com/Arious18/React-vite-Blog-Website.git
+   cd React-vite-Blog-Website
    ```
 
 2. Install dependencies
