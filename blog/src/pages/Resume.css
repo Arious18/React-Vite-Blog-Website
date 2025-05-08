@@ -1,0 +1,123 @@
+.resume-page {
+    padding: 2rem 0;
+}
+
+.page-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.resume-actions {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.resume {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.resume-header {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 2rem;
+}
+
+.resume-name {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.resume-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.resume-contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.resume-section {
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.resume-section:last-child {
+    border-bottom: none;
+}
+
+.resume-section-title {
+    font-size: 1.25rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.resume-philosophy {
+    font-style: italic;
+    color: var(--secondary-color);
+}
+
+.resume-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.skills-list, .strengths-list, .language-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li, .strengths-list li, .language-list li {
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.skills-list li::before, .strengths-list li::before, .language-list li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: var(--secondary-color);
+}
+
+.education-item h3 {
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.education-item p {
+    margin-bottom: 0.25rem;
+}
+
+@media (max-width: 768px) {
+    .resume-columns {
+        grid-template-columns: 1fr;
+    }
+
+    .resume-name {
+        font-size: 1.5rem;
+    }
+
+    .resume-contact {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
